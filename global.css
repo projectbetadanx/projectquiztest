@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "pop", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: "pop";
+    src: url(./pop.ttf);
+}

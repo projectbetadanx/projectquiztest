@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="say">
+                <h1>Attention</h1>
+                <p>You need to choose 1 of them</p>
+
+                <div class="guest">
+                    <div class="btn-game truth">
+                        <span><ion-icon name="person"></ion-icon></span><p>Truth</p>
+                    </div>
+                    <div class="btn-game dare">
+                        <span><ion-icon name="alert"></ion-icon></span><p>Dare</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="truth-game">
+                <h1>Are you sure?</h1>
+                <p>Are you sure you not gonna cry after watching this?</p>
+                <p>Here are two selection you need to click</p>
+
+                <div class="selection">
+                    <input type="checkbox" style="display: none;" id="yesIdo"><label for="yesIdo">Yes, I do</label>
+                    <input type="checkbox" style="display: none;" id="noIdont"><label for="noIdont">No, I dont</label>
+                    <button class="btn-media-submit">submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"></script>
+<script src="media.js"></script>
+</html>
